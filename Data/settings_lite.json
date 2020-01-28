@@ -1,0 +1,115 @@
+{
+	"visuals": {
+		"blank": {
+			"type": "metric",
+			"width": 4
+		},
+		"DirSunChg": {
+			"type": "metric",
+			"width": 2
+		},
+		"AvgDir": {
+			"type": "metric",
+			"width": 2
+		},
+		"SolRadChg": {
+			"type": "metric",
+			"width": 2
+		},
+		"AvgSolar": {
+			"type": "metric",
+			"width": 2
+		},
+		"img_1": {
+			"type": "image",
+			"width": 1,
+			"height": 3
+		},
+		"img_2": {
+			"type": "image",
+			"width": 3,
+			"height": 3
+		},
+		"img_3": {
+			"type": "image",
+			"width": 3,
+			"height": 3
+		},
+		"img_4": {
+			"type": "image",
+			"width": 1,
+			"height": 3
+		},
+		"img_5": {
+			"type": "image",
+			"width": 3,
+			"height": 3
+		},
+		"img_6": {
+			"type": "image",
+			"width": 1,
+			"height": 3
+		}
+	},
+	"parameters": {
+		"in:Setback_N": {
+			"longName": "North Setback",
+			"unit": "ft"
+		},
+		"in:Setback_M": {
+			"longName": "Middle Setback",
+			"unit": "ft"
+		},	
+		"in:Setback_S": {
+			"longName": "South Setback",
+			"unit": "ft"
+		},
+		"in:Height_N": {
+			"longName": "North Height",
+			"unit": "ft"
+		},
+		"in:Height_M": {
+			"longName": "Middle Height",
+			"unit": "ft"
+		},	
+		"in:Height_S": {
+			"longName": "South Height",
+			"unit": "ft"
+		},
+		"out:blank": {
+			"longName": " ",
+			"unit": " ",
+			"visuals": [
+				"blank"
+			]
+		},
+		"out:DirSunChange": {
+			"longName": "Annual Change in Direct Sun",
+			"unit": "%",
+			"visuals": [
+				"DirSunChg"
+			]
+		},
+		"out:AvgDirSun": {
+			"longName": "Avg Daily Direct Sun",
+			"unit": "Hr",
+			"visuals": [
+				"AvgDir"
+			]
+		},
+		"out:SolRadChange": {
+			"longName": "Annual Change in Solar Radiation",
+			"unit": "%",
+			"visuals": [
+				"SolRadChg"
+			]
+		},
+		"out:AvgSolRad": {
+			"longName": "Avg Daily Solar Radiation",
+			"unit": "kBTU/sf",
+			"visuals": [
+				"AvgSolar"
+			]
+		}
+	}
+}
